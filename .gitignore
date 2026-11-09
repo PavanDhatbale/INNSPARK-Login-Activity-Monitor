@@ -1,0 +1,43 @@
+# Environment files & secrets
+.env
+.env.*
+*.env
+!.env.example
+!frontend/.env.example
+
+# Build and target output
+target/
+frontend/dist/
+frontend/dist-ssr/
+frontend/node_modules/
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Java & Maven
+.mvn/wrapper/maven-wrapper.jar
+*.class
+
+# Temporary files
+tmp/
+temp/
+
+# OS files
+Thumbs.db
+Desktop.ini
